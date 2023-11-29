@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="loginmp.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="login_process.php" method="post">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" onclick="func(event)" value="Login">
+      </div>
+    </form>
+  </div>
+  <script src="loginmp.js"> </script>
+</body>
+
+</html>
